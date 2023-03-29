@@ -3,7 +3,7 @@
 ##Java Application with REST API for Server Management
 This Java application provides a REST API for managing server objects, including searching, creating, and deleting servers. The server objects are stored in a MongoDB database and the API endpoints can be accessed using any HTTP client such as Postman or cURL.
 
-### API Endpoints
+##API Endpoints
 The REST API has the following endpoints:
 
 - GET /servers - Returns all the servers if no parameters are passed. When server id is passed as a parameter, it returns a single server or 404 if there’s no such a server.
@@ -28,7 +28,7 @@ contains this string and return one or more servers found. Return 404 if nothing
 ####MongoDB Database
 The server objects are stored in a MongoDB database. The database configuration is defined in the application.properties file. Please ensure that MongoDB is installed and running before running the application.
 
-####Running the Application
+#####Running the Application
  To run the application, follow these steps:
 
   1. Clone the repository.
