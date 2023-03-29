@@ -32,10 +32,19 @@ The server objects are stored in a MongoDB database. The database configuration 
  To run the application, follow these steps:
 
   1. Clone the repository.
-  2. Open the project in your preferred Java IDE.
+  2. Open the project in your preferred Java IDE  (I used Intellij).
   3. Build the project using Maven.
   4. Run the application.
  Once the application is running, you can test the API endpoints using any HTTP client such as Postman or cURL.
 
 ###### Conclusion
 This Java application provides a REST API for managing server objects. By utilizing MongoDB to store the server objects, this application allows for efficient and effective management of servers. With the provided API endpoints, users can easily search, create, and delete server objects.
+
+
+## Screenshots
+- PUT request
+![image](https://user-images.githubusercontent.com/51507434/228626936-b7d26266-c8e1-4aad-be7a-4416ba7d9db3.png)
+
+- POST request
+![image](https://user-images.githubusercontent.com/51507434/228627203-52d45c74-3aab-465f-8c22-33eae2eb9028.png)
+
